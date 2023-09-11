@@ -3,14 +3,14 @@
  */
 class WhileFizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main() {
         int count = 0;
         while (count < 99) {
             count = doFizzBuzz(count);
         }
     }
 
-    private static int doFizzBuzz(int count) {
+    public static int doFizzBuzz(int count) {
         count += 1;
 
         // Find out which numbers divide i.
