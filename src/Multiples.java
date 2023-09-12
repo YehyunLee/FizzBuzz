@@ -1,6 +1,6 @@
 public class Multiples {
     public static void main(String[] args) {
-        play(10);
+        play(1000);
     }
     public static void play(int limit) {
         int count = 2;
@@ -9,7 +9,7 @@ public class Multiples {
             if (count % 3 == 0) {
                 result_count += 1;
             }
-            if (count % 5 == 0) {
+            else if (count % 5 == 0) {
                 result_count += 1;
             }
             count += 1;
